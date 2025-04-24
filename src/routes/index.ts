@@ -5,4 +5,4 @@ const apiRoute = express.Router();
 
 apiRoute.use("/v1", v1Route);
 
-export = apiRoute;
+export default apiRoute;
