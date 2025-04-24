@@ -1,3 +1,3 @@
 import logController from "./logController";
 
-export  { logController };
+export default { logController };

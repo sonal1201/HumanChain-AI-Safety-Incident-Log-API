@@ -15,10 +15,6 @@ const logSchema = new mongoose.Schema(
       enum: ["low", "medium", "high"],
       default: "low",
     },
-    reported_at: {
-      type: Date,
-      default: Date.now,
-    },
   },
   {
     timestamps: true,
